@@ -71,7 +71,7 @@ Route::get('/', function (){
 
 Route::group(['prefix' => 'dev', 'middleware' => 'auth'], function () {
     Route::get('/', function (){
-        return view('frontend.main.contact');
+        return view('frontend.pages.contact');
     });
 
     Route::get('cikis', function (){
