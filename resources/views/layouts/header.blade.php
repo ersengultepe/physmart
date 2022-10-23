@@ -48,7 +48,7 @@
                 <div class="header-column">
                     <div class="header-row">
                         <div class="header-logo">
-                            <a href="{{ route('index') }}">
+                            <a href="{{ route('main') }}">
                                 <img alt="Porto" width="180" height="50" data-sticky-width="82" data-sticky-height="40" src="{{ asset('images/phy/logo.png') }}">
                             </a>
                         </div>
