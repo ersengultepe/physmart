@@ -22,14 +22,14 @@
     <meta name="robots" content="ALL">
     <meta http-equiv="pragma" content="no-cache">
     <title>Yapım Aşamasında</title>
-    <link rel="stylesheet" type="text/css" href="/web/20220119172835cs_/http://physmart.com.tr/underConstruction/css/style.css"/>
-    <link rel="stylesheet" type="text/css" href="/web/20220119172835cs_/http://physmart.com.tr/underConstruction/css/bootstrap.css"/>
-    <link rel="stylesheet" type="text/css" href="/web/20220119172835cs_/http://physmart.com.tr/underConstruction/css/bootstrap-responsive.css"/>
+    <link rel="stylesheet" type="text/css" href="https://web.archive.org/web/20220119172835cs_/http://physmart.com.tr/underConstruction/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="https://web.archive.org/web/20220119172835cs_/http://physmart.com.tr/underConstruction/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="https://web.archive.org/web/20220119172835cs_/http://physmart.com.tr/underConstruction/css/bootstrap-responsive.css"/>
 
-    <script src="/web/20220119172835js_/http://physmart.com.tr/underConstruction/js/jquery.min.js" type="text/javascript"></script>
-    <script src="/web/20220119172835js_/http://physmart.com.tr/underConstruction/js/jquery.backgroundpos.min.js" type="text/javascript"></script>
-    <script src="/web/20220119172835js_/http://physmart.com.tr/underConstruction/js/jquery.countdown.min.js" type="text/javascript"></script>
-    <script src="/web/20220119172835js_/http://physmart.com.tr/underConstruction/js/scripts.js" type="text/javascript"></script>
+    <script src="https://web.archive.org/web/20220119172835js_/http://physmart.com.tr/underConstruction/js/jquery.min.js" type="text/javascript"></script>
+    <script src="https://web.archive.org/web/20220119172835js_/http://physmart.com.tr/underConstruction/js/jquery.backgroundpos.min.js" type="text/javascript"></script>
+    <script src="https://web.archive.org/web/20220119172835js_/http://physmart.com.tr/underConstruction/js/jquery.countdown.min.js" type="text/javascript"></script>
+    <script src="https://web.archive.org/web/20220119172835js_/http://physmart.com.tr/underConstruction/js/scripts.js" type="text/javascript"></script>
 
 </head>
 
@@ -60,7 +60,7 @@
                     </form>
                     <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
                         <div class="s" id="wm-nav-captures" style="flex:1;">
-                            <a class="t" href="/web/20220119172835*/http://physmart.com.tr/index.html" title="See a list of every capture for this URL">11 captures</a>
+                            <a class="t" href="https://web.archive.org/web/20220119172835*/http://physmart.com.tr/index.html" title="See a list of every capture for this URL">11 captures</a>
                             <div class="r" title="Timespan for captures of this URL">16 Oct 2019 - 24 Apr 2022</div>
                         </div>
                         <div class="k">
@@ -114,7 +114,7 @@
                         <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
                     </div>
                     <div id="wm-share" class="xxs">
-                        <a href="/web/20220119172835/http://web.archive.org/screenshot/http://physmart.com.tr/index.html"
+                        <a href="https://web.archive.org/web/20220119172835/http://web.archive.org/screenshot/http://physmart.com.tr/index.html"
                            id="wm-screenshot"
                            title="screenshot">
                             <span class="wm-icon-screen-shot"></span>
@@ -151,7 +151,7 @@
                         <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
                     </div>
                 </div>
-            </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20220119172835/http://physmart.com.tr/index.html</div>
+            </div></div></div></div>
 <script type="text/javascript">//<![CDATA[
     __wm.bt(675,27,25,2,"web","http://physmart.com.tr/index.html","20220119172835",1996,"/_static/",["/_static/css/banner-styles.css?v=fantwOh2","/_static/css/iconochive.css?v=qtvMKcIJ"], false);
     __wm.rw(1);
