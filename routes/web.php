@@ -79,76 +79,82 @@ Route::group(['prefix' => 'manage', 'middleware' => 'auth'], function () {
 });
 
 Route::get('/', function (){
-    return view('frontend.main.index');
+    return view('construction');
 });
 
-Route::get('cikis', function (){
-    Auth::logout();
-    return redirect('/');
-});
+Route::group(['prefix' => 'dev', 'middleware' => 'auth'], function () {
+    Route::get('/', function (){
+        return view('frontend.main.index');
+    });
 
-Route::get('hakkimizda', function (){
-    return view('frontend.hakkimizda.index');
-});
+    Route::get('cikis', function (){
+        Auth::logout();
+        return redirect('/');
+    });
 
-Route::get('hizmet', function (){
-    return view('frontend.hizmet.index')->with('breadCrumb', 'HİZMETLERİMİZ');
-});
+    Route::get('hakkimizda', function (){
+        return view('frontend.hakkimizda.index');
+    });
 
-Route::get('contact', function (){
-    return view('frontend.pages.contact');
-})->name('contact');
+    Route::get('hizmet', function (){
+        return view('frontend.hizmet.index')->with('breadCrumb', 'HİZMETLERİMİZ');
+    });
 
-Route::get('egitim', function (){
-    $egitim = new BlogController();
-    return $egitim->egitim();
-});
+    Route::get('contact', function (){
+        return view('frontend.pages.contact');
+    })->name('contact');
 
-Route::get('haber', function () {
+    Route::get('egitim', function (){
+        $egitim = new BlogController();
+        return $egitim->egitim();
+    });
 
-    $link = Haber::first();
+    Route::get('haber', function () {
 
-    $haber = new BlogController();
+        $link = Haber::first();
 
-    return $haber->haberKategori($link->getCategory->slug);
+        $haber = new BlogController();
 
-});
+        return $haber->haberKategori($link->getCategory->slug);
+
+    });
 
 //Haberlere erişim rotası
-Route::get('haber/{link?}', 'BlogController@haber');
+    Route::get('haber/{link?}', 'BlogController@haber');
 
 //Şirket yöneticileri profil sayfasına erişim rotaları
-Route::get('personel/{link}', ['as'=>'personel', 'uses'=>'BlogController@personel']);
+    Route::get('personel/{link}', ['as'=>'personel', 'uses'=>'BlogController@personel']);
 
 //Hizmetlere erişim rotaları
-Route::get('hizmet/{link}', ['as'=>'hizmet', 'uses'=>'BlogController@hizmet']);
+    Route::get('hizmet/{link}', ['as'=>'hizmet', 'uses'=>'BlogController@hizmet']);
 
 //Eğitimlere erişim rotaları
 //Route::get('egitim/{link?}', ['as'=>'egitim', 'uses'=>'BlogController@egitim']);
 
 //Sirkülere erişim rotaları
-Route::get('sirku/{link?}', ['as'=>'sirku', 'uses'=>'BlogController@sirku']);
+    Route::get('sirku/{link?}', ['as'=>'sirku', 'uses'=>'BlogController@sirku']);
 
 //Makalelere erişim rotaları
-Route::get('makale/{link?}', ['as' => 'makale', 'uses' => 'BlogController@makale']);
+    Route::get('makale/{link?}', ['as' => 'makale', 'uses' => 'BlogController@makale']);
 
 //Haber kategorileri erişim rotaları
-Route::get('/kategori/haber/{link}', ['as' => 'haberKategori', 'uses' => 'BlogController@haberKategori']);
+    Route::get('/kategori/haber/{link}', ['as' => 'haberKategori', 'uses' => 'BlogController@haberKategori']);
 
 //Sirkü kategorileri erişim rotaları
-Route::get('/kategori/sirku/{link}', ['as' => 'sirkuKategori', 'uses' => 'BlogController@sirkuKategori']);
+    Route::get('/kategori/sirku/{link}', ['as' => 'sirkuKategori', 'uses' => 'BlogController@sirkuKategori']);
 
 //Sirkü kategorileri erişim rotaları
-Route::get('/kategori/makale/{link}', ['as' => 'makaleKategori', 'uses' => 'BlogController@makaleKategori']);
+    Route::get('/kategori/makale/{link}', ['as' => 'makaleKategori', 'uses' => 'BlogController@makaleKategori']);
 
 //Alo Maliye Botu
-Route::get('alomaliye', 'BlogController@aloMaliye');
+    Route::get('alomaliye', 'BlogController@aloMaliye');
 
-Route::post('mesaj_gonder', ['as'=>'mesaj', 'uses'=>'MesajlarController@kaydet']);
+    Route::post('mesaj_gonder', ['as'=>'mesaj', 'uses'=>'MesajlarController@kaydet']);
+
+});
+
 
 Route::auth();
 
 
 Auth::routes();
-
-//Route::get('/home', 'HomeController@index')->name('home');
