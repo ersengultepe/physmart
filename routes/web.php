@@ -71,7 +71,7 @@ Route::get('/', function (){
 
 Route::group(['prefix' => 'dev', 'middleware' => 'auth'], function () {
     Route::get('/', function (){
-        return view('frontend.main.index')->name('main');
+        return view('frontend.main.index');
     });
 
     Route::get('cikis', function (){
