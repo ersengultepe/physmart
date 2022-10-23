@@ -15,6 +15,9 @@ return [
 
     'name' => 'Physmart Ltd. Şti.',
 
+    'slogan' => 'Medical Systems',
+
+    'keywords' => 'Medikal Sistemler, Medical Systems',
     /*
     |--------------------------------------------------------------------------
     | Application Environment

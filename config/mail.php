@@ -16,7 +16,7 @@ return [
 
     'from' => [
         'address'       => 'bilgi@sdsdanismanlik.com.tr',
-        'name'          => 'SDS Danışmanlık Tic. Ltd. Şti.'
+        'name'          => config('app.name')
     ],
 
     'sendmail' => '/usr/sbin/sendmail -bs',

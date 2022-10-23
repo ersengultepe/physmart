@@ -1,7 +1,7 @@
 @extends('admin.sablon')
 
 @section('meta')
-    <title>SDS Danışmanlık | Kategori Ekleme Sayfası</title>
+    <title>{{ config("app.name") }} | Kategori Ekleme Sayfası</title>
 @endsection
 
 @section('css')

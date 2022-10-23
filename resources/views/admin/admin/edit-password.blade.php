@@ -1,7 +1,7 @@
 @extends('admin.sablon')
 
 @section('meta')
-    <title>SDS Danışmanlık | {{ $user->name.' '.$user->surname }} Şifre Güncelleme Sayfası</title>
+    <title>{{ config('app.name') }} | {{ $user->name.' '.$user->surname }} Şifre Güncelleme Sayfası</title>
 @endsection
 
 @section('css')

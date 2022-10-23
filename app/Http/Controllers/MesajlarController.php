@@ -26,7 +26,7 @@ class MesajlarController extends Controller
                  $client->sendEmail(
                 config('mail.from.address'),
                 "ersengultepe@gmail.com",
-                "SDS Danışmanlık sitesi üzerinden bir ziyaretçi mesajı gönderildi",
+                config('app.url')." sitesi üzerinden bir ziyaretçi mesajı gönderildi",
                 '<html>
 <head>
 
@@ -36,7 +36,7 @@ class MesajlarController extends Controller
 <br>
 <div class="moz-forward-container"><br>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>SDS Danışmanlık sitesi üzerinden bir ziyaretçi mesajı gönderildi</title>
+    <title>{{ config("app.url") }} sitesi üzerinden bir ziyaretçi mesajı gönderildi</title>
     <style type="text/css">
         .welcome-email a:hover {
             color: #000 !important;
@@ -96,7 +96,7 @@ class MesajlarController extends Controller
                             <td style="padding: 0 0 1px; color: #333; font:
                         15px \'Helvetica Neue\', Helvetica, Arial,
                         sans-serif; line-height: 1.5;" width="540">
-                                <p style="margin: 0; padding: 0;">SDS Danışmanlık sitesinden <strong>www.sdsdanismanlik.com.tr</strong> bir ziyaretçiniz tarafından yazılan 
+                                <p style="margin: 0; padding: 0;">{{ config("app.name") }} sitesinden <strong>{{ config("app.url") }}</strong> bir ziyaretçiniz tarafından yazılan 
                                     mesaj aldınız. Aşağıda inceleyebilirsiniz.
                                 </p>
 

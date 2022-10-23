@@ -4,9 +4,9 @@
     <!-- Basic -->
     <meta charset="UTF-8">
 
-    <meta name="keywords" content="SDS Danışmanlık | Yönetici Girişi "/>
-    <meta name="description" content="SDS Danışmanlık, İş Hukuku, Sosyal Güvenlik">
-    <meta name="author" content="softexts.net">
+    <meta name="description" content="{{ config("app.name") }} | Yönetici Girişi "/>
+    <meta name="keywords" content="{{ config("app.keywords") }}">
+    <meta name="author" content="ersen gültepe">
 
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
@@ -39,7 +39,7 @@
 <section class="body-sign">
     <div class="center-sign">
         <a href="/" class="logo pull-left">
-            <img src="{{ asset('p/img/sds2-logo.png') }}" height="65" width="130" alt="SDS Danışmanlık"/>
+            <img src="{{ asset('p/img/sds2-logo.png') }}" height="65" width="130" alt="{{ config("app.name") }}"/>
         </a>
 
         <div class="panel panel-sign">

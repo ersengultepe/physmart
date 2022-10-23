@@ -1,7 +1,7 @@
 @extends('admin.sablon')
 
 @section('meta')
-    <title>SDS Danışmanlık | SUPPLY DEMAND SUPPLY</title>
+    <title>{{ config("app.name") }} | SUPPLY DEMAND SUPPLY</title>
 @endsection
 
 @section('css')

@@ -1,7 +1,7 @@
 @extends('admin.sablon')
 
 @section('meta')
-    <title>SDS Danışmanlık | {{ $post->title }}</title>
+    <title>{{ config("app.name") }} | {{ $post->title }}</title>
 @endsection
 
 @section('css')

@@ -67,7 +67,7 @@
                             <td style="padding: 0 0 1px; color: #333; font:
                         15px 'Helvetica Neue', Helvetica, Arial,
                         sans-serif; line-height: 1.5;" width="540">
-                                <p style="margin: 0; padding: 0;">SDS Danışmanlık sitesinden <strong>www.sdsdanismanlik.com.tr</strong>
+                                <p style="margin: 0; padding: 0;">{{ config("app.name") }} sitesinden <strong>{{ config("app.url") }}</strong>
                                     bir mesaj aldınız. Aşağıda inceleyebilirsiniz.
                                 </p>
 

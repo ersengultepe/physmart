@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
 
     @yield('meta')
-    <meta name="keywords" content="SDS Danışmanlık, İş Hukuku, Sosyal Güvenlik" />
+    <meta name="keywords" content="{{ config("app.keywords") }}" />
     <meta name="description" content="">
     <meta name="author" content="softexts.net">
 
@@ -25,7 +25,7 @@
     <header class="header">
         <div class="logo-container">
             <a href="{{ url('/manage') }}" class="logo">
-                <img src="{{ asset('p/img/sds2-logo.png') }}" height="45" width="190" alt="SDS Danışmanlık Tic.Ltd.Şti." />
+                <img src="{{ asset('p/img/sds2-logo.png') }}" height="45" width="190" alt="{{ config("app.name") }}" />
             </a>
             <div class="visible-xs toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html" data-fire-event="sidebar-left-opened">
                 <i class="fa fa-bars" aria-label="Toggle sidebar"></i>
@@ -449,7 +449,7 @@
 
         <section role="main" class="content-body">
             <header class="page-header">
-                <h2>SDS Danışmanlık Tic. Ltd. Şti.</h2>
+                <h2>{{ config("app.name") }}</h2>
 
                 <div class="right-wrapper pull-right">
                     <ol class="breadcrumbs">
