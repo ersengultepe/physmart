@@ -6,7 +6,7 @@
         <div class="row py-5 my-4">
             <div class="col-md-6 mb-4 mb-lg-0">
                 <a href="index.html" class="logo pe-0 pe-lg-3">
-                    <img alt="Porto Website Template" src="{{ asset('images/phy/logo.png') }}" class="opacity-7 bottom-4" height="32">
+                    <img alt="physmart medical systems" style="margin-top: -11%;width: 40%;" src="{{ asset('images/phy/physmart-footer-logo.png') }}" class="opacity-7 bottom-4">
                 </a>
                 <p class="mt-2 mb-2">2018 yılında kurulan şirketimiz radyasyon ölçüm sistemleri üzerine <br> ar-ge projeleri geliştirip üretmekle kalmayıp, sektöre de hizmet sağlamaktadır.</p>
 {{--                <p class="mb-0"><a href="#" class="btn-flat btn-xs text-color-light"><strong class="text-2">VIEW MORE</strong><i class="fas fa-angle-right p-relative top-1 ps-2"></i></a></p>--}}

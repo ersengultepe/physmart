@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '3490c5e8473524049a31b0c0c6a9fa97247df7f5',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -49,12 +49,12 @@
             'dev_requirement' => false,
         ),
         'composer/ca-bundle' => array(
-            'pretty_version' => '1.3.3',
-            'version' => '1.3.3.0',
+            'pretty_version' => '1.3.4',
+            'version' => '1.3.4.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/./ca-bundle',
             'aliases' => array(),
-            'reference' => '30897edbfb15e784fe55587b4f73ceefd3c4d98c',
+            'reference' => '69098eca243998b53eed7a48d82dedd28b447cd5',
             'dev_requirement' => false,
         ),
         'composer/composer' => array(
@@ -160,12 +160,12 @@
             'dev_requirement' => false,
         ),
         'doctrine/event-manager' => array(
-            'pretty_version' => '1.1.2',
-            'version' => '1.1.2.0',
+            'pretty_version' => '1.2.0',
+            'version' => '1.2.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../doctrine/event-manager',
             'aliases' => array(),
-            'reference' => 'eb2ecf80e3093e8f3c2769ac838e27d8ede8e683',
+            'reference' => '95aa4cb529f1e96576f3fda9f5705ada4056a520',
             'dev_requirement' => false,
         ),
         'doctrine/inflector' => array(
@@ -259,12 +259,12 @@
             'dev_requirement' => false,
         ),
         'google/apiclient-services' => array(
-            'pretty_version' => 'v0.270.0',
-            'version' => '0.270.0.0',
+            'pretty_version' => 'v0.272.0',
+            'version' => '0.272.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../google/apiclient-services',
             'aliases' => array(),
-            'reference' => '902b415a7ab92ccb50e2b7dda334a3497c8bc3da',
+            'reference' => '52b494231f6b531983d12aefac057d0eeec2861c',
             'dev_requirement' => false,
         ),
         'google/auth' => array(
@@ -541,12 +541,12 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '3490c5e8473524049a31b0c0c6a9fa97247df7f5',
             'dev_requirement' => false,
         ),
         'laravel/tinker' => array(
@@ -703,21 +703,21 @@
             'dev_requirement' => true,
         ),
         'phpdocumentor/type-resolver' => array(
-            'pretty_version' => '1.6.1',
-            'version' => '1.6.1.0',
+            'pretty_version' => '1.6.2',
+            'version' => '1.6.2.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpdocumentor/type-resolver',
             'aliases' => array(),
-            'reference' => '77a32518733312af16a44300404e945338981de3',
+            'reference' => '48f445a408c131e38cab1c235aa6d2bb7a0bb20d',
             'dev_requirement' => false,
         ),
         'phpseclib/phpseclib' => array(
-            'pretty_version' => '3.0.16',
-            'version' => '3.0.16.0',
+            'pretty_version' => '3.0.17',
+            'version' => '3.0.17.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpseclib/phpseclib',
             'aliases' => array(),
-            'reference' => '7181378909ed8890be4db53d289faac5b77f8b05',
+            'reference' => 'dbc2307d5c69aeb22db136c52e91130d7f2ca761',
             'dev_requirement' => false,
         ),
         'phpspec/prophecy' => array(
@@ -843,8 +843,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0',
-                1 => '1.0.0',
+                0 => '1.0.0',
+                1 => '1.0',
             ),
         ),
         'psr/simple-cache' => array(

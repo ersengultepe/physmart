@@ -61,12 +61,12 @@
                                 <nav class="collapse">
                                     <ul class="nav nav-pills" id="mainNav" >
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle {{ Route::currentRouteName() == ''  ? 'active' : '' }}" href="/">
+                                            <a class="dropdown-item dropdown-toggle phy-header {{ Route::currentRouteName() == ''  ? 'active' : '' }}" href="/">
                                                 Anasayfa
                                             </a>
                                         </li>
                                         <li class="dropdown dropdown-mega">
-                                            <a class="dropdown-item dropdown-toggle" href="elements.html">
+                                            <a class="dropdown-item dropdown-toggle phy-header " href="elements.html">
                                                 Kurumsal
                                             </a>
                                             <ul class="dropdown-menu">
@@ -147,7 +147,7 @@
                                             </ul>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="#">
+                                            <a class="dropdown-item dropdown-toggle phy-header " href="#">
                                                 HİZMETLER
                                             </a>
                                             <ul class="dropdown-menu">
@@ -643,10 +643,10 @@
                                             </ul>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="#">
+                                            <a class="dropdown-item dropdown-toggle phy-header " href="#">
                                                 ÜRÜNLER
                                             </a>
-                                            <ul class="dropdown-menu">
+                                            <ul class="dropdown-menu phy-header ">
                                                 <li class="dropdown-submenu">
                                                     <a class="dropdown-item" href="#">Contact Us</a>
                                                     <ul class="dropdown-menu">
@@ -707,12 +707,12 @@
                                             </ul>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item" href="#">
+                                            <a class="dropdown-item phy-header " href="#">
                                                 Online Doz Takip
                                             </a>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle {{ Route::currentRouteName() == 'contact'  ? 'active' : '' }}" href="{{ route('contact') }}">
+                                            <a class="dropdown-item dropdown-toggle phy-header {{ Route::currentRouteName() == 'contact'  ? 'active' : '' }}" href="{{ route('contact') }}">
                                                 İLETİŞİM
                                             </a>
                                         </li>

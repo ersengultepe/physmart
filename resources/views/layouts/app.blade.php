@@ -57,5 +57,10 @@
 <!-- Theme Initialization Files -->
 <script src="{{ asset('/porto/js/theme.init.js') }}"></script>
 @yield('js')
+
+<script>
+    $(".phy-header").css('color', 'black')
+</script>
+
 </body>
 </html>
