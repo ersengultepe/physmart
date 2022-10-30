@@ -34,170 +34,6 @@
 
         <!-- start: search & user box -->
         <div class="header-right">
-
-            {{--<span class="separator"></span>--}}
-
-            {{--<ul class="notifications">
-                <li>
-                    <a href="#" class="dropdown-toggle notification-icon" data-toggle="dropdown">
-                        <i class="fa fa-tasks"></i>
-                        <span class="badge">3</span>
-                    </a>
-
-                    <div class="dropdown-menu notification-menu large">
-                        <div class="notification-title">
-                            <span class="pull-right label label-default">3</span>
-                            Tasks
-                        </div>
-
-                        <div class="content">
-                            <ul>
-                                <li>
-                                    <p class="clearfix mb-xs">
-                                        <span class="message pull-left">Generating Sales Report</span>
-                                        <span class="message pull-right text-dark">60%</span>
-                                    </p>
-                                    <div class="progress progress-xs light">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <p class="clearfix mb-xs">
-                                        <span class="message pull-left">Importing Contacts</span>
-                                        <span class="message pull-right text-dark">98%</span>
-                                    </p>
-                                    <div class="progress progress-xs light">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 98%;"></div>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <p class="clearfix mb-xs">
-                                        <span class="message pull-left">Uploading something big</span>
-                                        <span class="message pull-right text-dark">33%</span>
-                                    </p>
-                                    <div class="progress progress-xs light mb-xs">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" style="width: 33%;"></div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <a href="#" class="dropdown-toggle notification-icon" data-toggle="dropdown">
-                        <i class="fa fa-envelope"></i>
-                        <span class="badge">4</span>
-                    </a>
-
-                    <div class="dropdown-menu notification-menu">
-                        <div class="notification-title">
-                            <span class="pull-right label label-default">230</span>
-                            Messages
-                        </div>
-
-                        <div class="content">
-                            <ul>
-                                <li>
-                                    <a href="#" class="clearfix">
-                                        <figure class="image">
-                                            <img src="{{ asset('pa/HTML/assets/images/!sample-user.jpg" alt="Joseph Doe Junior') }}" class="img-circle" />
-                                        </figure>
-                                        <span class="title">Joseph Doe</span>
-                                        <span class="message">Lorem ipsum dolor sit.</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="clearfix">
-                                        <figure class="image">
-                                            <img src="{{ asset('pa/HTML/assets/images/!sample-user.jpg') }}" alt="Joseph Junior" class="img-circle" />
-                                        </figure>
-                                        <span class="title">Joseph Junior</span>
-                                        <span class="message truncate">Truncated message. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet lacinia orci. Proin vestibulum eget risus non luctus. Nunc cursus lacinia lacinia. Nulla molestie malesuada est ac tincidunt. Quisque eget convallis diam, nec venenatis risus. Vestibulum blandit faucibus est et malesuada. Sed interdum cursus dui nec venenatis. Pellentesque non nisi lobortis, rutrum eros ut, convallis nisi. Sed tellus turpis, dignissim sit amet tristique quis, pretium id est. Sed aliquam diam diam, sit amet faucibus tellus ultricies eu. Aliquam lacinia nibh a metus bibendum, eu commodo eros commodo. Sed commodo molestie elit, a molestie lacus porttitor id. Donec facilisis varius sapien, ac fringilla velit porttitor et. Nam tincidunt gravida dui, sed pharetra odio pharetra nec. Duis consectetur venenatis pharetra. Vestibulum egestas nisi quis elementum elementum.</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="clearfix">
-                                        <figure class="image">
-                                            <img src="{{ asset('pa/HTML/assets/images/!sample-user.jpg') }}" alt="Joe Junior" class="img-circle" />
-                                        </figure>
-                                        <span class="title">Joe Junior</span>
-                                        <span class="message">Lorem ipsum dolor sit.</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="clearfix">
-                                        <figure class="image">
-                                            <img src="{{ asset('pa/HTML/assets/images/!sample-user.jpg') }}" alt="Joseph Junior" class="img-circle" />
-                                        </figure>
-                                        <span class="title">Joseph Junior</span>
-                                        <span class="message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet lacinia orci. Proin vestibulum eget risus non luctus. Nunc cursus lacinia lacinia. Nulla molestie malesuada est ac tincidunt. Quisque eget convallis diam.</span>
-                                    </a>
-                                </li>
-                            </ul>
-
-                            <hr />
-
-                            <div class="text-right">
-                                <a href="#" class="view-more">View All</a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <a href="#" class="dropdown-toggle notification-icon" data-toggle="dropdown">
-                        <i class="fa fa-bell"></i>
-                        <span class="badge">3</span>
-                    </a>
-
-                    <div class="dropdown-menu notification-menu">
-                        <div class="notification-title">
-                            <span class="pull-right label label-default">3</span>
-                            Alerts
-                        </div>
-
-                        <div class="content">
-                            <ul>
-                                <li>
-                                    <a href="#" class="clearfix">
-                                        <div class="image">
-                                            <i class="fa fa-thumbs-down bg-danger"></i>
-                                        </div>
-                                        <span class="title">Server is Down!</span>
-                                        <span class="message">Just now</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="clearfix">
-                                        <div class="image">
-                                            <i class="fa fa-lock bg-warning"></i>
-                                        </div>
-                                        <span class="title">User Locked</span>
-                                        <span class="message">15 minutes ago</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="clearfix">
-                                        <div class="image">
-                                            <i class="fa fa-signal bg-success"></i>
-                                        </div>
-                                        <span class="title">Connection Restaured</span>
-                                        <span class="message">10/10/2014</span>
-                                    </a>
-                                </li>
-                            </ul>
-
-                            <hr />
-
-                            <div class="text-right">
-                                <a href="#" class="view-more">View All</a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>--}}
-
             <span class="separator"></span>
 
             <div id="userbox" class="userbox">
@@ -262,6 +98,26 @@
                                     <span>Yönetici Ana Sayfa</span>
                                 </a>
                             </li>
+
+                            <li class="nav-parent  {{ \App\Http\Controllers\Helper::isActive('slide.index', 'slide.create') }} ">
+                                <a>
+                                    <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                                    <span>Slayt İşlemleri</span>
+                                </a>
+                                <ul class="nav nav-children">
+                                    <li class="{{ \App\Http\Controllers\Helper::isActive('slide.index') }}">
+                                        <a href="{{ route('slide.index') }}">
+                                            Slayt Listesi
+                                        </a>
+                                    </li>
+                                    <li class="{{ \App\Http\Controllers\Helper::isActive('slide.create') }}">
+                                        <a href="{{ route('slide.create') }}">
+                                            Slayt Ekle
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
                             <li class="nav-parent  {{ \App\Http\Controllers\Helper::isActive('post.index', 'post.create') }} ">
                                 <a>
                                     <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
@@ -298,78 +154,10 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="nav-parent {{ \App\Http\Controllers\Helper::isActive('haber.index', 'haber.create') }} ">
-                                <a>
-                                    <i class="fa fa-header" aria-hidden="true"></i>
-                                    <span>Haber İşlemleri</span>
-                                </a>
-                                <ul class="nav nav-children">
-                                    <li class="{{ \App\Http\Controllers\Helper::isActive('haber.index') }}">
-                                        <a href="{{ route('haber.index') }}">
-                                            Haber Listesi
-                                        </a>
-                                    </li>
-                                    <li class="{{ \App\Http\Controllers\Helper::isActive('haber.create') }}">
-                                        <a href="{{ route('haber.create') }}">
-                                            Haber Ekle
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-parent  {{ \App\Http\Controllers\Helper::isActive('egitim.index', 'egitim.create') }} ">
-                                <a>
-                                    <i class="fa fa-university" aria-hidden="true"></i>
-                                    <span>Eğitim İşlemleri</span>
-                                </a>
-                                <ul class="nav nav-children">
-                                    <li class="{{ \App\Http\Controllers\Helper::isActive('egitim.index') }}">
-                                        <a href="{{ route('egitim.index') }}">
-                                            Eğitim Listesi
-                                        </a>
-                                    </li>
-                                    <li class="{{ \App\Http\Controllers\Helper::isActive('egitim.create') }}">
-                                        <a href="{{ route('egitim.create') }}">
-                                            Eğitim Ekle
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-parent {{ \App\Http\Controllers\Helper::isActive('hizmet.index', 'hizmet.create') }} ">
-                                <a>
-                                    <i class="fa fa-retweet" aria-hidden="true"></i>
-                                    <span>Hizmet İşlemleri</span>
-                                </a>
-                                <ul class="nav nav-children">
-                                    <li class="{{ \App\Http\Controllers\Helper::isActive('hizmet.index') }}">
-                                        <a href="{{ route('hizmet.index') }}">
-                                            Hizmet Listesi
-                                        </a>
-                                    </li>
-                                    <li class="{{ \App\Http\Controllers\Helper::isActive('hizmet.create') }}">
-                                        <a href="{{ route('hizmet.create') }}">
-                                            Hizmet Ekle
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                              <li class="nav-parent  {{ \App\Http\Controllers\Helper::isActive('sirku.index', 'sirku.create') }} ">
-                                <a>
-                                    <i class="fa fa-folder-open-o" aria-hidden="true"></i>
-                                    <span>Sirküler İşlemleri</span>
-                                </a>
-                                <ul class="nav nav-children">
-                                    <li class="{{ \App\Http\Controllers\Helper::isActive('sirku.index') }}">
-                                        <a href="{{ route('sirku.index') }}">
-                                            Sirkü Listesi
-                                        </a>
-                                    </li>
-                                    <li class="{{ \App\Http\Controllers\Helper::isActive('sirku.create') }}">
-                                        <a href="{{ route('sirku.create') }}">
-                                            Sirkü Ekle
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
+
+
+
+
 
                             <hr class="separator">
 
@@ -381,36 +169,12 @@
                                 <div class="widget-content">
                                     <ul class="list-unstyled m-none">
                                         <li {{ \App\Http\Controllers\Helper::isActive('inbox') }} >
-                                            <a href="{{ route('inbox') }}">Ziyaretçi Mesajları</a>
+                                            <a href="">Ziyaretçi Mesajları</a>
                                         </li>
                                         <li><a href="{{ route('logs') }}">Hata Kayıtları</a></li>
                                     </ul>
                                 </div>
                             </div>
-
-
-                            {{--<li class="nav-parent  {{ \App\Http\Controllers\Helper::isActive('inbox') }} ">--}}
-                                {{--<a>--}}
-                                    {{--<i class="fa fa-list-ol" aria-hidden="true"></i>--}}
-                                    {{--<span>Ziyaretçi Mesajları</span>--}}
-                                {{--</a>--}}
-                                {{--<ul class="nav nav-children">--}}
-                                    {{--<li class="{{ \App\Http\Controllers\Helper::isActive('inbox') }}">--}}
-                                        {{--<a href="{{ route('inbox') }}">--}}
-                                            {{--Mesaj Listesi--}}
-                                        {{--</a>--}}
-                                    {{--</li>--}}
-                                {{--</ul>--}}
-                            {{--</li>--}}
-
-
-                            {{--<li class="">--}}
-                                {{--<a href="{{ route('logs') }}">--}}
-                                    {{--<i class="fa fa-warning" aria-hidden="true"></i>--}}
-                                    {{--<span>Hata Kayıtları</span>--}}
-                                {{--</a>--}}
-
-                            {{--</li>--}}
 
                             @if(Auth::user()->rank == 1)
                                 <li class="nav-parent {{ \App\Http\Controllers\Helper::isActive('admin.index', 'admin.create') }}  ">
@@ -476,7 +240,5 @@
 
 @yield('js')
 <!-- Slug -->
-{{--<script src="{{ asset('pa/HTML/assets/javascripts/ui-elements/jquery.slugify.js') }}"></script>--}}
-
 </body>
 </html>

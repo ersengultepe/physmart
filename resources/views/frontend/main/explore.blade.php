@@ -12,7 +12,7 @@
 								</span>
 								<span class="thumb-info-slide-info-hover-2">
 									<span class="thumb-info-inner text-2">
-										<a href="#" class="d-inline-flex align-items-center btn btn-outline-light text-color-dark font-weight-bold px-4 btn-py-2 text-1 rounded" style="background-color: rgb(244, 219, 11);">
+										<a href="#" class="d-inline-flex align-items-center btn btn-outline-light text-color-dark font-weight-bold px-4 btn-py-2 text-1 rounded exploreBtn" >
 											ÜRÜNLERİMİZİ GÖRÜNTÜLE <i class="fa fa-arrow-right ms-2 ps-1 text-3"></i>
 										</a>
 									</span>
@@ -31,7 +31,7 @@
 								</span>
 								<span class="thumb-info-slide-info-hover-2">
 									<span class="thumb-info-inner text-2">
-										<a href="#" class="d-inline-flex align-items-center btn btn-outline-light text-color-dark font-weight-bold px-4 btn-py-2 text-1 rounded" style="background-color: rgb(244, 219, 11);">
+										<a href="#" class="d-inline-flex align-items-center btn btn-outline-light text-color-dark font-weight-bold px-4 btn-py-2 text-1 rounded exploreBtn">
 											TAKIMIMIZI GÖRÜNTÜLE <i class="fa fa-arrow-right ms-2 ps-1 text-3"></i>
 										</a>
 									</span>
@@ -50,7 +50,7 @@
 								</span>
 								<span class="thumb-info-slide-info-hover-2">
 									<span class="thumb-info-inner text-2">
-										<a href="#" class="d-inline-flex align-items-center btn btn-outline-light text-color-dark font-weight-bold px-4 btn-py-2 text-1 rounded" style="background-color: rgb(244, 219, 11);">
+										<a href="#" class="d-inline-flex align-items-center btn btn-outline-light text-color-dark font-weight-bold px-4 btn-py-2 text-1 rounded exploreBtn">
 											OİFİSİMİZİ GÖRÜNTÜLE<i class="fa fa-arrow-right ms-2 ps-1 text-3"></i>
 										</a>
 									</span>
@@ -69,7 +69,7 @@
 								</span>
 								<span class="thumb-info-slide-info-hover-2">
 									<span class="thumb-info-inner text-2">
-										<a href="#" class="d-inline-flex align-items-center btn btn-outline-light text-color-dark font-weight-bold px-4 btn-py-2 text-1 rounded" style="background-color: rgb(244, 219, 11);">
+										<a href="#" class="d-inline-flex align-items-center btn btn-outline-light text-color-dark font-weight-bold px-4 btn-py-2 text-1 rounded exploreBtn">
 											GÖREVİMİZİ GÖRÜNTÜLE <i class="fa fa-arrow-right ms-2 ps-1 text-3"></i>
 										</a>
 									</span>
@@ -88,7 +88,7 @@
 								</span>
 								<span class="thumb-info-slide-info-hover-2">
 									<span class="thumb-info-inner text-2">
-										<a href="#" class="d-inline-flex align-items-center btn btn-outline-light text-color-dark font-weight-bold px-4 btn-py-2 text-1 rounded" style="background-color: rgb(244, 219, 11);">
+										<a href="#" class="d-inline-flex align-items-center btn btn-outline-light text-color-dark font-weight-bold px-4 btn-py-2 text-1 rounded exploreBtn" >
 											HİZMETLERİ GÖRÜNTÜLE <i class="fa fa-arrow-right ms-2 ps-1 text-3"></i>
 										</a>
 									</span>

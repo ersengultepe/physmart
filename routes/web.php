@@ -58,6 +58,7 @@ Route::group(['prefix' => 'manage', 'middleware' => 'auth'], function () {
     Route::get('embed', 'GoogleAnalyticsController@embed');
 
     Route::resource('post', 'PostController');
+    Route::resource('slide', 'SlideController');
     Route::resource('category', 'CategoryController', ['except' => 'show']);
     Route::resource('admin', 'AdminController');
 

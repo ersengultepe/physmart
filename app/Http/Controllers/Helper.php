@@ -183,16 +183,12 @@ class Helper extends Controller
             case 'post.create'       : return '<li><span>Makale</span></li><li><span>Makale Ekle</span></li>';
             case 'category.index'    : return '<li><span>Kategori</span></li>';
             case 'category.create'   : return '<li><span>Kategori</span></li><li><span>Kategori Ekle</span></li>';
-            case 'egitim.index'      : return '<li><span>Eğitim</span></li>';
-            case 'egitim.create'     : return '<li><span>Eğitim</span></li><li><span>Eğitim Ekle</span></li>';
-            case 'hizmet.index'      : return '<li><span>Hizmet</span></li>';
-            case 'hizmet.create'     : return '<li><span>Hizmet</span></li><li><span>Hizmet Ekle</span></li>';
+
             case 'admin.index'       : return '<li><span>Yönetici</span></li>';
             case 'admin.create'      : return '<li><span>Yönetici</span></li><li><span>Yönetici Ekle</span></li>';
-            case 'sirku.index'       : return '<li><span>Sirkü</span></li>';
-            case 'sirku.create'      : return '<li><span>Sirkü</span></li><li><span>Sirkü Ekle</span></li>';
-            case 'haber.index'       : return '<li><span>Haber</span></li>';
-            case 'haber.create'      : return '<li><span>Haber</span></li><li><span>Haber Ekle</span></li>';
+
+
+
             default : return '';
         }
     }

@@ -61,7 +61,7 @@
                                 <nav class="collapse">
                                     <ul class="nav nav-pills" id="mainNav" >
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle phy-header {{ Route::currentRouteName() == ''  ? 'active' : '' }}" href="/">
+                                            <a class="dropdown-item dropdown-toggle phy-header {{ Route::currentRouteName() == ''  ? 'active' : '' }}" href="{{ '/' }}">
                                                 Anasayfa
                                             </a>
                                         </li>
